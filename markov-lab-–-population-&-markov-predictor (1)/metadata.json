@@ -1,0 +1,6 @@
+{
+  "name": "Markov Lab – Population & Markov Predictor",
+  "description": "Interactive academic Markov Chain modeling, matrix builder, population dynamics simulator, and eigenvalue/steady-state analyzer backed by SQLite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-linen: #F5F0E6;
+    --bg-warm-white: #FFFCF6;
+    --navy-deep: #10233F;
+    --amber-accent: #F5A623;
+    --blue-muted: #4D83A8;
+    --text-main: #292724;
+  }
+
+  body {
+    background-color: #F5F0E6;
+    color: #292724;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .font-serif-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-mono-tabular {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle custom scrollbar matching linen/navy palette */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #EDE6D8;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8BFA9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9E9480;
+}
